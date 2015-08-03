@@ -26,7 +26,7 @@ var Example = React.createClass({
         <a className="external-link" href="https://github.com/">GitHub</a>
         <Link className="react-router-link" to="/">Home</Link>
         <img src="https://assets-cdn.github.com/images/modules/dashboard/bootcamp/octocat_setup.png"/>
-      </Menu>
+      </RBN>
     );
   }
 });
