@@ -1,6 +1,6 @@
 {
   "name": "react-burger-nav",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A hamburger icon triggered, off-canvas sidebar React component, using CSS transitions to show/hide the sidebar content.",
   "keywords": [
     "react",

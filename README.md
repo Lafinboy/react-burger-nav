@@ -92,3 +92,4 @@ ICS
 
 * 1.0.0 Intial Release
 * 1.0.1 Added left assignment to fixed position elements
+* 1.0.2 Fixed stupid typo
