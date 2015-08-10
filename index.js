@@ -11,6 +11,7 @@ var styles = {
     menuWrap: function menuWrap(isOpen) {
         return appendVendorPrefix({
             position: 'fixed',
+            left: 0;
             top: 0,
             zIndex: 2,
             width: 300,
@@ -36,6 +37,7 @@ var styles = {
     overlay: function overlay(isOpen) {
         return appendVendorPrefix({
             position: 'fixed',
+            left: 0;
             top: 0,
             zIndex: 1,
             width: '100%',

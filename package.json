@@ -1,6 +1,6 @@
 {
   "name": "react-burger-nav",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A hamburger icon triggered, off-canvas sidebar React component, using CSS transitions to show/hide the sidebar content.",
   "keywords": [
     "react",
@@ -8,13 +8,15 @@
     "offcanvas",
     "navigation"
   ],
-  "homepage": "",
-  "bugs": "https://github.com/Lafinboy/react-burger-nav/issues",
-  "license": "ISC",
+  "homepage": "https://github.com/Lafinboy/react-burger-nav#readme",
+  "bugs": {
+    "url": "https://github.com/Lafinboy/react-burger-nav/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lafinboy/react-burger-nav"
+    "url": "git+https://github.com/Lafinboy/react-burger-nav.git"
   },
+  "license": "ISC",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

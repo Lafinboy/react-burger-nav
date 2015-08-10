@@ -91,3 +91,4 @@ ICS
 ## Release History
 
 * 1.0.0 Intial Release
+* 1.0.1 Added left assignment to fixed position elements
