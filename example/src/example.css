@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,800);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #fafafa;
+  color: #444;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+#app {
+  height: 100%;
+}
+
+/* react-burger-nav burger menu custom styles */
+.rbn-burger-button {
+    background: transparent;
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+}
+
+.rbn-burger-bars {
+  background: #444;
+}
+
+.rbn-cross {
+    background: #bdc3c7;
+}
+
+.rbn-menu {
+    background: #444;
+    font-size: 1.15em;
+    padding: 2.5em 1.5em 0;
+}
+
+.rbn-menu a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.rbn-menu a:hover,
+.rbn-menu a:focus {
+    color: #c94e50;
+}
+
+.rbn-item-list a {
+    padding: 0.8em;
+}

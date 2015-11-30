@@ -1,1 +1,15 @@
+# Dependency directory
 node_modules
+
+# Example build directory
+example/dist
+
+# Editor and other tmp files
+*.swp
+*.un~
+*.iml
+*.ipr
+*.iws
+*.sublime-*
+.idea/
+*.DS_Store

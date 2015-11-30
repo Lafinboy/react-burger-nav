@@ -48,9 +48,14 @@ All the animations are handled internally by the component. However, the visual 
 The component has the following helper classes:
 
 ``` css
-// Color of burger icon
-.rbn-burger-icon {
+// Colour of burger icon
+.rbn-burger-button {
   background: #373a47;
+}
+
+// Colour of burger bars
+.rbn-burger-bars {
+  background: #444;
 }
 
 // Color of close button cross
@@ -58,15 +63,11 @@ The component has the following helper classes:
   background: #bdc3c7;
 }
 
-// Background color of sidebar
-.rbn-menu
-  background: #373a47;
-}
-
 // General menu styles
 .rbn-menu {
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+    background: #444;
+    font-size: 1.15em;
+    padding: 2.5em 1.5em 0;
 }
 
 // Wrapper for item list
@@ -93,3 +94,4 @@ ICS
 * 1.0.0 Intial Release
 * 1.0.1 Added left assignment to fixed position elements
 * 1.0.2 Fixed stupid typo
+* 2.0.0 Upgrade core React components, plus all related components, methods, etc.
