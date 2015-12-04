@@ -18,6 +18,10 @@ body {
 }
 
 /* react-burger-nav burger menu custom styles */
+.rbn-overlay {
+    background: rgba(50, 55, 50, .8)
+}
+
 .rbn-burger-button {
     background: transparent;
     position: fixed;

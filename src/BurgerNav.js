@@ -57,11 +57,8 @@ const BurgerNav = React.createClass({
 
         if (this.props.children) {
             items = React.Children.map(this.props.children, (item, index) => {
-                const itemStyles = [baseStyles.item(this.state.isOpen)]
-
                 const extraProps = {
-                    key: index,
-                    style: itemStyles
+                    key: index
                 }
 
                 return React.cloneElement(item, extraProps)

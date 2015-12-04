@@ -48,6 +48,11 @@ All the animations are handled internally by the component. However, the visual 
 The component has the following helper classes:
 
 ``` css
+// Colour of the overlay
+.rbn-overlay {
+    background: rgba(50, 50, 50, .5);
+}
+
 // Colour of burger icon
 .rbn-burger-button {
   background: #373a47;
@@ -95,3 +100,4 @@ ICS
 * 1.0.1 Added left assignment to fixed position elements
 * 1.0.2 Fixed stupid typo
 * 2.0.0 Upgrade core React components, plus all related components, methods, etc.
+* 2.0.1 Removed default overlay colour style so it can be set with CSS
